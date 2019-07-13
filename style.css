@@ -1,0 +1,57 @@
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 10px;
+  border-color: #F05F44; 
+}
+
+.faded {
+  color: rgba(255, 248, 238, 1); 
+}
+
+header.berzerk {
+  background-position: center;
+  background-image: url("guts.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+header.berzerk hr {
+  margin-top: 100px;
+  margin-bottom: 30px; 
+}
+
+header.berzerk h1 {
+  font-size: 2rem; 
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 1rem; 
+}
+
+.btn-primary {
+  background-color: #F05F44;
+  border-color: #F05F44; }
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 3px;
+  cursor: pointer;
+}
